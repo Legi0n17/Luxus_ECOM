@@ -552,4 +552,47 @@ footer .copyright{
     /* .footer{
         height:fit-content;
     } */
+}   
+    @media(max-width:477px){
+     #header{
+        padding: 10px 30px;
+     }
+     h1{
+        font-size: 38px;
+     }
+     h2{
+        font-size: 30px;
+     }
+     .landing {
+        padding: 0 20px;
+        background-position:  55%;;
+    }
+    .feature{
+        justify-content: space-between;
+    }
+    .feature .fe-box {
+        width: 140px;
+        margin: 0 0 15px 0px;
+    }
+    .product {
+        width: 100%;
+    }
+    .banner {
+        height: 30vh;
+    }
+    .banner-box-2 {
+     margin-top: 30px;
+    }
+    .banner3 {
+        padding: 0 40px;
+    }
+    .banner3 .banner-box {
+       width: 100%;
+    }
+    .newsletter .form{
+        width: 100%;
+    }
+    footer .copyright {
+        text-align: start;
+    }
 }
