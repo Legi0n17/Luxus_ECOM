@@ -466,6 +466,7 @@ footer .copyright{
     text-align: center;
 }
 
+/* ----------------------------------------------------------------------- */
 
 /* SHOPE PAGE */
 .Shope-hadder{  
@@ -498,8 +499,24 @@ font-weight: 600;
     font-weight: 600;
 }
 
+/* ----------------------------------------------------------------------- */
 
+/* Single Product Description */
+#pro-details .spro-img{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-img-grp{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
 
+/* ----------------------------------------------------------------------- */
 
 
 
