@@ -502,6 +502,10 @@ font-weight: 600;
 /* ----------------------------------------------------------------------- */
 
 /* Single Product Description */
+#pro-details{
+    display: flex;
+    margin-top: 20px;
+}
 #pro-details .spro-img{
     width: 40%;
     margin-right: 50px;
@@ -515,6 +519,45 @@ font-weight: 600;
     flex-basis: 24%;
     cursor: pointer;
 }
+#pro-details .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#pro-details .single-pro-details h4{
+    /* display:inline-block; */
+    padding: 10px 0 20px 0;
+}
+#pro-details .single-pro-details h2{
+    font-size: 26px;
+}
+.btn-secondary {
+    color: rgb(12, 12, 12);
+    background-color: rgb(253, 254, 255);
+    border-color: rgb(48, 132, 107);
+}
+.btn-secondary:hover{background-color: #17A589;}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    background-color: #088178;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.dropdown-item:hover{background-color: #09a989;}
+.btn-success {
+    color: #fff;
+    border-color: #088178;
+}
+.btn-success:hover{background-color: #088178 !important;}
+.form-inline {
+    display: initial;
+}
+.form-control {
+    width: 100px;
+}
+
+
+
+
 
 /* ----------------------------------------------------------------------- */
 
