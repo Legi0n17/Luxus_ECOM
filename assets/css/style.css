@@ -501,6 +501,8 @@ font-weight: 600;
 
 /* ----------------------------------------------------------------------- */
 
+
+
 /* Single Product Description */
 #pro-details{
     display: flex;
@@ -529,6 +531,9 @@ font-weight: 600;
 }
 #pro-details .single-pro-details h2{
     font-size: 26px;
+}
+#pro-details .single-pro-details span{
+    line-height: 25px;
 }
 .btn-secondary {
     color: rgb(12, 12, 12);
@@ -651,6 +656,9 @@ font-weight: 600;
         height:fit-content;
     } */
 }   
+
+
+/* ---------------------small screeen------------------------------ */
     @media(max-width:477px){
      #header{
         padding: 10px 30px;
@@ -692,5 +700,21 @@ font-weight: 600;
     }
     footer .copyright {
         text-align: start;
+    }
+
+    /* single product */
+    #pro-details {
+        display: flex;
+        flex-direction: column;
+    }
+    #pro-details .spro-img {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #pro-details .single-pro-details {
+        width: 100%;
+    }
+    .custom-select {
+        width: auto;
     }
 }
