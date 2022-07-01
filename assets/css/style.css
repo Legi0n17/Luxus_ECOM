@@ -859,7 +859,7 @@ transition: 0.3s;
     padding: 30px;
 }
 .subtotal table{
-    boarder-collapse:collapse;
+    border-collapse:collapse;
     width: 100%;
     margin-bottom: 20px;
 }
