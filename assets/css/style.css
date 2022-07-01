@@ -123,7 +123,7 @@ body{
     display: none;
 }
 .landing{
-    background-image: url(/assets/img/landing.jpg);
+    background-image: url(./assets/img/landing.jpg);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -141,7 +141,7 @@ body{
     color: #088178;
 }
 .landing button{
-    background-image: url(/assets/img/button.png);
+    background-image: url(./assets/img/button.png);
     background-color: transparent;
     color: #088178;
     border: 0;
@@ -269,7 +269,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(/assets/img/banner/b2.jpg);
+    background-image: url(./assets/img/banner/b2.jpg);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -303,7 +303,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(/assets/img/banner/b17.jpg);
+    background-image: url(./assets/img/banner/b17.jpg);
     min-width: 600px;
     height: 50vh;
     background-size: cover;
@@ -331,14 +331,14 @@ body{
     border: 1px solid #088178;
 }
 .banner-box-2{
-    background-image: url(/assets/img/banner/b10.jpg);
+    background-image: url(./assets/img/banner/b10.jpg);
 }
 .banner3 .banner-box{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        background-image: url(/assets/img/banner/b7.jpg);
+        background-image: url(./assets/img/banner/b7.jpg);
         min-width: 30%;
         height: 30vh;
         background-size: cover;
@@ -364,19 +364,19 @@ body{
     font-size: 15px;
 }
 .banner3 .banner-box2{
-    background-image: url(/assets/img/banner/b4.jpg);
+    background-image: url(./assets/img/banner/b4.jpg);
     /* min-width: 60%; */
 
 }
 .banner3 .banner-box3{
-    background-image: url(/assets/img/banner/b18.jpg);
+    background-image: url(./assets/img/banner/b18.jpg);
 }
 .newsletter{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(/assets/img/banner/b14.png);
+    background-image: url(./assets/img/banner/b14.png);
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
@@ -469,7 +469,7 @@ footer .copyright{
 
 /* SHOPE PAGE */
 .Shope-hadder{  
-    background-image: url("/assets/img/banner/b1.jpg");
+    background-image: url("./assets/img/banner/b1.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -565,7 +565,7 @@ transition: 0.3s;
 
 /* BLOG PAGE */
 .blog-header{
-    background-image: url(/assets/img/banner/b19.jpg);
+    background-image: url(./assets/img/banner/b19.jpg);
 }
 #blog{
     padding: 150px 150px 0 150px;
@@ -632,7 +632,7 @@ transition: 0.3s;
 /* ----------------About Page-------------------------------- */
 
 #page-header{
-    background-image: url("/assets/img/about/banner.png");
+    background-image: url("./assets/img/about/banner.png");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -772,7 +772,7 @@ transition: 0.3s;
     overflow-x:auto ;
 }
 #cart-header{
-    background-image: url("/assets/img/cart/banner2.jpg");
+    background-image: url("./assets/img/cart/banner2.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
